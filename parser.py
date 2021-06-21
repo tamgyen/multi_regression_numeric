@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 from progressbar import progressbar
 
-targetPath = "C:/Dev/Projects/turbine/data/Achilles_gene_effect.csv"
-expPath = "C:/Dev/Projects/turbine/data/CCLE_expression.csv"
-cnPath = "C:/Dev/Projects/turbine/data/CCLE_gene_cn.csv"
+targetPath = "C:/Dev/Projects/client_name/data/Achilles_gene_effect.csv"
+expPath = "C:/Dev/Projects/client_name/data/CCLE_expression.csv"
+cnPath = "C:/Dev/Projects/client_name/data/CCLE_gene_cn.csv"
 
 def readCsv(datPath):
     print("Reading csv: " + datPath)
